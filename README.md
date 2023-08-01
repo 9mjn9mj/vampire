@@ -46,7 +46,6 @@ From xDrip+
     coOptedPackages.add("com.medtronic.diabetes.guardian")
     coOptedPackages.add("com.medtronic.diabetes.minimedmobile.eu")
     coOptedPackages.add("com.medtronic.diabetes.minimedmobile.us")
-    coOptedPackages.add("com.freestylelibre3.app")
 ```
 
 ## Reading via Intent BroadCast
@@ -121,7 +120,7 @@ All data are returned in JSON:
 ## ToDo
 Code needs to be improved and unused parts removed
 
-It would be very interesting if someone can test with FreeStyleLibre, right now I don't have any sensor to test, the package name would be com.freestylelibre3.app, I add it to VampireCollector code
+~~It would be very interesting if someone can test with FreeStyleLibre, right now I don't have any sensor to test, the package name would be com.freestylelibre3.app, I add it to VampireCollector code~~
 
 ## Bugs
 Sometimes the service stops and does not continue to collect data. 
